@@ -7,8 +7,45 @@
   <body>
 
     <h2>Course Sign Up Page</h2>
+    <p>Please Note: First Name,Last Name,Password , and Email are required</p>
 
-    <h5>Please Note: First Name,Last Name,Password , and Email are required</h5>
+    <form action="thanks.html" method="get">
+      <label for="fm">First Name:</label>
+      <input id="fm" type="text" name="" placeholder="First Name">
+
+      <label for="lm">Last Name:</label>
+      <input id="lm" type="text" name="" placeholder="Last Name">
+
+      <p>  </p>
+
+
+      <label for="em">Email:</label>
+      <input id="em" type="email" name="" placeholder="user@email.com">
+
+      <label for="pass">Password:</label>
+      <input type="password" name="" value="">
+
+      <p>are you over 18?</p>
+      <label for="y">Yes:</label>
+      <input id="y" type="radio" name="over" value="Yes">
+
+      <label for="n">No:</label>
+      <input id="n" type="radio" name="over" value="No">
+
+      <p>Please selct the payment method</p>
+
+      <select name="payment">
+        <option value="cc">Credit Card</option>
+        <option value="pp">Paypal</option>
+
+      </select>
+      <p></p>
+
+      <input type="submit" name="" value="Sign Up">
+
+    </form>
+
+
 
 
   </body>
